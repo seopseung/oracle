@@ -1,0 +1,71 @@
+oracle > disk 1 11g xe(Expression Edition)
+
+setup으로 설치
+
+암호지정
+- java1234
+
+
+
+sql 폴더 > C:\class\dev로 옮기기
+
+class\oracle 에서 오라클 수업 진행할거임
+
+---------------------------------------------------------
+
+Java
+- 제품명
+- 회사명 > 썬 > 오라클
+
+Oracle Database
+- 제품명이기도 하고 회사이름(Oracle)이기도함
+
+Database
+- 데이터베이스 -> 데이터 집합을 의미
+- 관리, 운영, 보안 등..-> 데이터베이스 관리시스템
+
+데이터베이스 관리시스템
+- Database Management System
+- 오라클(DB이기도 하면서 조작(DBMS)까지 할 수 있음) ->
+
+Oracle windows 메뉴
+- Backup Database > 백업용
+- Restore Database > 불러오기
+
+백그라운드 프로세스
+- 서비스(Service)
+- 리눅스 : 데몬(Daemon)
+오라클은 실행해도 안보임
+
+
+오라클 실행/종료/상태확인
+- Win+R > services.msc
+
+
+OracleServiceXE > 데이터베이스 > 이게 멈추면 오라클이 멈춤
+
+OracleXETNSListener > 리스너(클라이언트 도구와 연결하는 역할) 
+
+- 이 두개가 동시에 실행되고 있어야한다.
+
+나머지는 DB 관리하는애들이 씀
+
+
+OracleServiceXE
+- 시작 유형 : 자동 or 수동
+
+오라클을 안쓸때는 중지를 해놓는게 나음 > 메모리 겁나 잡아먹음
+
+
+
+SQL Developer
+- 데이터베이스 클라이언트 툴
+- 눈에 안보이는 오라클에 연결해서 조작하는 프로그램
+- 개발자 <-> 중계인(데이터베이스 클라이언트) <-> 오라클(데이터베이스 서버)
+
+
+접속 - 새 데이터베이스 접속
+- Name : localhost.system ([컴퓨터이름이나 아이피이름].[로그인한 계정이름])
+- ID : system / PW : java1234
+- 세부정보 : localhost / 포트 : 1521(국민번호임,공부하는사람만 씀) / SID(서비스아이디) : xe
+저장 후 테스트 - 상태 : 성공 > 접속
